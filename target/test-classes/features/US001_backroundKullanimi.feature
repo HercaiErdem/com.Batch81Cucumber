@@ -19,3 +19,4 @@ Feature: US001 Backround Kullanimi
     Then Kullanici Iphone aratir
     And sonuclarin Iphone icerdigini test eder
     And  sayfayi kapatir
+

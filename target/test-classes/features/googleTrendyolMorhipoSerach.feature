@@ -1,6 +1,9 @@
 
+@Homework
 Feature: Trendyol Morhipo Makas
+
   Scenario: Kullanici trendyolda ve morhipoda makas aratir
+
     Given   kullanici googlea gider
     Then trendyolu aratir
     And trendyol linkini bulup siteye gider

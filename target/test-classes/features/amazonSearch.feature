@@ -22,3 +22,7 @@ Feature: Amazon Search
     Then Kullanici Iphone aratir
     And sonuclarin Iphone icerdigini test eder
     And  sayfayi kapatir
+
+
+
+
