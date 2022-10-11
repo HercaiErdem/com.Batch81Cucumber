@@ -6,13 +6,14 @@ import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.PracticeTC07Page;
 import utilities.Driver;
-import utilities.ReuseableMethods;
+import utilities.ReusableMethods;
 
 import java.io.IOException;
 
 public class Practice_TC_07steps {
 
     PracticeTC07Page practiceTC07Page = new PracticeTC07Page();
+    private ReusableMethods ReuseableMethods;
 
     @Given("Tarayiciyi baslatarak {string} url'sine gidin")
     public void tarayiciyiBaslatarakUrlSineGidin(String istenenUrl) {
@@ -44,7 +45,7 @@ public class Practice_TC_07steps {
     @Then("İlgili sayfanın ekran görüntüsünü alın")
     public void ilgili_sayfanın_ekran_görüntüsünü_alın() {
         try {
-            ReuseableMethods.ReusableMethods.getScreenshot("TestCase07 Page");
+            ReuseableMethods.getScreenshot("TestCase07 Page");
         } catch (IOException e) {
             e.printStackTrace();
         }
