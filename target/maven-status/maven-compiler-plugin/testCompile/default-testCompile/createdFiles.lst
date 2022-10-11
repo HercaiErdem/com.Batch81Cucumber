@@ -1,4 +1,15 @@
 homeworks\Homeworks.class
+utilities\ReuseableMethods$ReusableMethods$1.class
+pages\AmazonPage.class
+stepDefinitions\AmazonStepDefinition.class
+utilities\ReuseableMethods$ReusableMethods.class
+pages\PracticeTC07Page.class
 runners\Runner.class
+utilities\Driver.class
+utilities\ReuseableMethods.class
+stepDefinitions\Practice_TC_07steps.class
 pages\GoogleTrendyolMorhipoPage.class
+pages\BrcPage.class
+utilities\ConfigReader.class
+stepDefinitions\BlueRentaCar.class
 stepDefinitions\GoogleTrendyolMorhipoStepDefinition.class
