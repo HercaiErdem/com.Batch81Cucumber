@@ -104,4 +104,9 @@ public class AmazonStepDefinition {
             throw new RuntimeException(e);
         }
     }
+
+    @Given("kullanici {string}")
+    public void kullanici(String arg0) {
+        Driver.getDriver().get(ConfigReader.getProperty("trendyolUrl"));
+    }
 }

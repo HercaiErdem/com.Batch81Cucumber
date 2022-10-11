@@ -11,3 +11,11 @@ Feature: US006 Kullanici Amazon da istedigi kelimeleri aratir
       | nutella       | nutella              |
       | selenium      | selenium             |
       | sql           | sql                  |
+
+
+      # Feature dosyasinda yazdığımız komutta eğer "" (Tırnak) kullanirsak stepDefinition da parametreli
+      # bir method oluşturur. Ve artik stepDefinition'ı kullanmadan Feature dosyasında ""(tırnak) içindeki
+      # string'i değiştirerek istediğim kelimeyi aratabilirim.
+      # Scenario Outline da ise yine ""(Tırnak) içinde birden fazla kelime aratıcaksam "<>" şeklindeki kullanım ile
+      # "<>" içine yazdığım herhangi bir kelimeyi Scenario Outline'ın aşağıda oluşturduğu Examples altında aratmak
+      # istediğim kelimeleri yazar ve sırasıyla aratabiliriz

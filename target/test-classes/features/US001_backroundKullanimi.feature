@@ -2,11 +2,11 @@
 Feature: US001 Backround Kullanimi
 
   Background: Ortak adimlar
-    Given Kullanici amazon sayfasina gider
+    Given kullanici amazon sayfasina gider
 
   Scenario: TC01 Kullanici amazonda Nutella aratir
 
-    Then Kullanici nutella aratir
+    Then kullanici nutella aratir
     And sonuclarin Nutella icerdigini test eder
 
   Scenario: TC02 Kullanici amazonda Selenium aratir
