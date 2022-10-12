@@ -38,11 +38,11 @@ public class AmazonPage {
     @FindBy(xpath = "//h1")
     public WebElement passwordAssitanceText;
 
-    @FindBy(xpath = "//a[@id='createAccountSubmit']")
+    @FindBy (xpath = "//a[@id='createAccountSubmit']")
     public WebElement createYourAccountButton;
 
-    @FindBy(xpath = "//h1")
-    public WebElement crateAccountText;
+    @FindBy (xpath = "//h1")
+    public WebElement createAccountText;
 
 
 }

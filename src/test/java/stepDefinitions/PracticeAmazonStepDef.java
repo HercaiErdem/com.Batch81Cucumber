@@ -74,14 +74,11 @@ public class PracticeAmazonStepDef {
     @Then("Create your account butonuna tiklar")
     public void create_your_account_butonuna_tiklar() {
         amazonPage.createYourAccountButton.click();
-
     }
-
     @Then("Create account metnini dogrular")
     public void create_account_metnini_dogrular() {
-        Assert.assertTrue("Create Account Text icermiyor"
-                , amazonPage.createYourAccountButton.getText().contains("Create your account"));
-
+        Assert.assertTrue("Create Account Text içermiyor"
+                ,amazonPage.createAccountText.getText().contains("Create account"));
     }
 
     @Then("websayfasini kapatir")
