@@ -2,6 +2,7 @@ homeworks\Homeworks.class
 stepDefinitions\AmazonStepDefinition.class
 stepDefinitions\PracticeTestPageStepDefs.class
 utilities\ReusableMethods$1.class
+pages\GuruPage.class
 stepDefinitions\Practice_TC_07steps.class
 pages\GoogleTrendyolMorhipoPage.class
 pages\BrcPage.class
@@ -15,3 +16,4 @@ utilities\Driver.class
 pages\PracticeTestPage.class
 utilities\ConfigReader.class
 stepDefinitions\GoogleTrendyolMorhipoStepDefinition.class
+stepDefinitions\GuruStepDefinition.class
