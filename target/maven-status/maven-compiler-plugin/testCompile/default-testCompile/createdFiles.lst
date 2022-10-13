@@ -13,6 +13,7 @@ pages\AmazonPage.class
 pages\PracticeTC07Page.class
 runners\Runner.class
 utilities\Driver.class
+stepDefinitions\Hooks.class
 pages\PracticeTestPage.class
 utilities\ConfigReader.class
 stepDefinitions\GoogleTrendyolMorhipoStepDefinition.class
