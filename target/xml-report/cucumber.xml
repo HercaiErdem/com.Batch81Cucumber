@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="27.698">
+    <testcase classname="US005 Blue RentaCar Login" name="TC11 kullanici gecerli bilgilerle giris yapar" time="27.223">
+        <system-out><![CDATA[Given kullanici "brcUrl" ana sayfasinda.....................................passed
+Then Login yazisina tiklar..................................................passed
+And gecersiz username girer.................................................passed
+And kullanici 2 saniye bekler...............................................passed
+And gecersiz password girer.................................................passed
+And Login butonuna basar....................................................passed
+And kullanici 2 saniye bekler...............................................passed
+Then sayfaya giris yapilamadigini kontrol eder..............................passed
+And kullanici 2 saniye bekler...............................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
