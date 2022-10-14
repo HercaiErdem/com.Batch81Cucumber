@@ -12,7 +12,7 @@ public class TestRunner2 {
                     "junit:target/xml-report/cucumber.xml"},
             features = "src/test/resources/features",
             glue = "stepDefinitions",
-            tags = "@bracar",
+            tags = "@all",
             dryRun = false
     )
     public class Runner {

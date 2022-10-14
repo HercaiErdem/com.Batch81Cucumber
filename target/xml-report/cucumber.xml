@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="27.698">
-    <testcase classname="US005 Blue RentaCar Login" name="TC11 kullanici gecerli bilgilerle giris yapar" time="27.223">
-        <system-out><![CDATA[Given kullanici "brcUrl" ana sayfasinda.....................................passed
-Then Login yazisina tiklar..................................................passed
-And gecersiz username girer.................................................passed
-And kullanici 2 saniye bekler...............................................passed
-And gecersiz password girer.................................................passed
-And Login butonuna basar....................................................passed
-And kullanici 2 saniye bekler...............................................passed
-Then sayfaya giris yapilamadigini kontrol eder..............................passed
-And kullanici 2 saniye bekler...............................................passed
-And sayfayi kapatir.........................................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="31.527">
+    <testcase classname="US14 Class Work" name="Kullanici ve Url Testi" time="30.905">
+        <system-out><![CDATA[Given kullanici "webUrl" sayfasina gider....................................passed
+When kullanici 3 saniye bekler..............................................passed
+Then kullanici Login Portala kadar asagi iner...............................passed
+And kullanici Login Portala tiklar..........................................passed
+When kullanici 3 saniye bekler..............................................passed
+And kullanici diger windowa gecer...........................................passed
+And kullanici "username" kutusuna bilgileri girer...........................passed
+When kullanici 3 saniye bekler..............................................passed
+And kullanici "password" bolumune bilgileri girer...........................passed
+When kullanici 3 saniye bekler..............................................passed
+And kullanici login butonuna basar..........................................passed
+And kullanici Popup'ta cikan yazinin validation failed oldugunu test eder...passed
+When kullanici 3 saniye bekler..............................................passed
+And kullanici Ok diyerek Popup'i kapatir....................................passed
+And kullanici ilk sayfaya geri doner........................................passed
+When kullanici 3 saniye bekler..............................................passed
+And kullanici ilk sayfaya donuldugunu test eder.............................passed
+When kullanici 3 saniye bekler..............................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
