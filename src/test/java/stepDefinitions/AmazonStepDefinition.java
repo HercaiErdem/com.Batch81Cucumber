@@ -26,7 +26,7 @@ public class AmazonStepDefinition {
     }
     @And("sayfayi kapatir")
     public void sayfayiKapatir() {
-        Driver.closeDriver();
+       Driver.closeDriver();
     }
     @Then("kullanici Selenium icin arama yapar")
     public void kullaniciSeleniumIcinAramaYapar() {

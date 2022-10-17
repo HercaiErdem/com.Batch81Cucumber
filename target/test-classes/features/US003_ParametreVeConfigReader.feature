@@ -1,7 +1,7 @@
 @threeTests
 Feature: Parametre Kullanimi
 
-  @bunu
+  @gp1
   Scenario: TC01 Parametre kullaniminda ConfigReader Kullanimi
     Given kullanici "facebookUrl" sayfasina gider
     Then kullanici 3 saniye bekler
@@ -15,7 +15,7 @@ Feature: Parametre Kullanimi
     When url'nin "google" icerdigini test edelim
     And sayfayi kapatir
 
-  @gp1
+  @gp3
   Scenario: TC03 Parametre kullaniminda ConfigReader Kullanimi
     Given kullanici "brcUrl" sayfasina gider
     Then kullanici 3 saniye bekler
