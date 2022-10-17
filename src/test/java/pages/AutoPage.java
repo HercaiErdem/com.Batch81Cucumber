@@ -11,15 +11,12 @@ public class AutoPage {
 
     }
 
-    @FindBy(xpath = "//a[@class='login']")
+    @FindBy (xpath = "//*[@class='login']")
     public WebElement login;
-
-    @FindBy(xpath = "//input[@id='search_query_top']")
+    @FindBy (xpath = "//*[@id='email_create']")
     public WebElement createEmail;
-
-    @FindBy (xpath = "//input[@id='id_gender2']")
+    @FindBy (xpath = "//*[@id='uniform-id_gender1']")
     public WebElement radioButton;
-
     @FindBy (xpath = "(//*[text()='My account'])[1]")
     public WebElement myAccountText;
 
