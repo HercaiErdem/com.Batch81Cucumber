@@ -1,6 +1,7 @@
 C:\Batch81\com.Batch81Cucumber\src\test\java\pages\WebPage.java
 C:\Batch81\com.Batch81Cucumber\src\test\java\pages\DemoPage.java
 C:\Batch81\com.Batch81Cucumber\src\test\java\homeworks\Homeworks.java
+C:\Batch81\com.Batch81Cucumber\src\test\java\stepDefinitions\PracticeFormStepDefs.java
 C:\Batch81\com.Batch81Cucumber\src\test\java\pages\PracticeTC07Page.java
 C:\Batch81\com.Batch81Cucumber\src\test\java\stepDefinitions\Practice_TC_07steps.java
 C:\Batch81\com.Batch81Cucumber\src\test\java\utilities\ReusableMethods.java
@@ -21,6 +22,7 @@ C:\Batch81\com.Batch81Cucumber\src\test\java\stepDefinitions\DemoStepDefinition.
 C:\Batch81\com.Batch81Cucumber\src\test\java\pages\GuruPage.java
 C:\Batch81\com.Batch81Cucumber\src\test\java\pages\AutoPage.java
 C:\Batch81\com.Batch81Cucumber\src\test\java\stepDefinitions\PracticeAmazonStepDef.java
+C:\Batch81\com.Batch81Cucumber\src\test\java\pages\PracticeFormPage.java
 C:\Batch81\com.Batch81Cucumber\src\test\java\pages\BrcPage.java
 C:\Batch81\com.Batch81Cucumber\src\test\java\utilities\Driver.java
 C:\Batch81\com.Batch81Cucumber\src\test\java\stepDefinitions\WebDriverStepDefinition.java

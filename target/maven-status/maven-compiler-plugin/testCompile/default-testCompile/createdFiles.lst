@@ -19,8 +19,10 @@ pages\GuruPage.class
 stepDefinitions\Practice_TC_07steps.class
 pages\BrcPage.class
 stepDefinitions\PracticeAmazonStepDef.class
+stepDefinitions\PracticeFormStepDefs.class
 stepDefinitions\BlueRentaCarStepDefinition.class
 utilities\ReusableMethods.class
+pages\PracticeFormPage.class
 pages\AutoPage.class
 pages\PracticeTC07Page.class
 stepDefinitions\AutoStepDefinition.class
