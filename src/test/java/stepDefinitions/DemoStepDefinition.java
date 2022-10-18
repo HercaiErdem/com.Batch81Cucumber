@@ -53,11 +53,13 @@ public class DemoStepDefinition {
 
     @Then("kullanici Will enable bes seconds butonunun enable olmasini bekler")
     public void kullaniciWillEnableBesSecondsButonununEnableOlmasiniBekler() {
+        wait.until(ExpectedConditions.elementToBeClickable(demo.enable));
 
     }
 
     @And("kullanici Will enable bes seconds butonunun enable oldugunu test eder")
     public void kullaniciWillEnableBesSecondsButonununEnableOldugunuTestEder() {
+        Assert.assertTrue(demo.enable.isEnabled());
 
     }
 }
