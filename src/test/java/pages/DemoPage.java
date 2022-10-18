@@ -6,11 +6,15 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
 public class DemoPage {
-    public DemoPage(){
-        PageFactory.initElements(Driver.getDriver(),this);
+    public DemoPage() {
+        PageFactory.initElements(Driver.getDriver(), this);
     }
-    @FindBy(xpath = "(//span[@class='text'])[12]")
+
+    @FindBy(xpath = "(//*[@class='btn btn-light '])[11]")
     public WebElement alertWE;
+
+    @FindBy(xpath = "(//button[text()='Click me'])[2]")
+    public WebElement clickMe;
 
 
 }
