@@ -1,6 +1,7 @@
 package stepDefinitions;
 
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.hc.core5.util.Asserts;
 import org.junit.Assert;
@@ -14,6 +15,8 @@ import utilities.Driver;
 import java.time.Duration;
 
 public class DemoStepDefinition {
+    WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
+
     DemoPage demo = new DemoPage();
     Actions action = new Actions(Driver.getDriver());
 
@@ -32,7 +35,6 @@ public class DemoStepDefinition {
 
     @And("kullanici Allertin gorunur olmasini bekler")
     public void kullaniciAllertinGorunurOlmasiniBekler() {
-        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
         wait.until(ExpectedConditions.alertIsPresent());
     }
 
@@ -49,4 +51,13 @@ public class DemoStepDefinition {
         Driver.getDriver().switchTo().alert().accept();
     }
 
+    @Then("kullanici Will enable bes seconds butonunun enable olmasini bekler")
+    public void kullaniciWillEnableBesSecondsButonununEnableOlmasiniBekler() {
+
+    }
+
+    @And("kullanici Will enable bes seconds butonunun enable oldugunu test eder")
+    public void kullaniciWillEnableBesSecondsButonununEnableOldugunuTestEder() {
+
+    }
 }
