@@ -3,6 +3,7 @@ stepDefinitions\AmazonStepDefinition.class
 stepDefinitions\PracticeTestPageStepDefs.class
 pages\WebPage.class
 pages\GoogleTrendyolMorhipoPage.class
+pages\DemoQAPage.class
 stepDefinitions\DemoStepDefinition.class
 pages\AmazonPage.class
 runners\Runner.class
@@ -12,6 +13,7 @@ stepDefinitions\Hooks.class
 pages\PracticeTestPage.class
 runners\TestRunner2.class
 runners\TestRunner2$Runner.class
+stepDefinitions\DemoQAStepDefinition.class
 runners\TestRunner$Runner.class
 homeworks\Homeworks.class
 utilities\ReusableMethods$1.class
