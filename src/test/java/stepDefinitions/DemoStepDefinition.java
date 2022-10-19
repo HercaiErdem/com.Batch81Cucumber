@@ -56,7 +56,6 @@ public class DemoStepDefinition {
         wait.until(ExpectedConditions.elementToBeClickable(demo.enable));
 
     }
-
     @And("kullanici Will enable bes seconds butonunun enable oldugunu test eder")
     public void kullaniciWillEnableBesSecondsButonununEnableOldugunuTestEder() {
         Assert.assertTrue(demo.enable.isEnabled());
