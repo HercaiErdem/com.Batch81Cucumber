@@ -10,6 +10,7 @@ runners\Runner.class
 runners\TestRunner.class
 utilities\Driver.class
 stepDefinitions\Hooks.class
+pages\PracticeNegativeTestPage.class
 pages\PracticeTestPage.class
 runners\TestRunner2.class
 runners\TestRunner2$Runner.class

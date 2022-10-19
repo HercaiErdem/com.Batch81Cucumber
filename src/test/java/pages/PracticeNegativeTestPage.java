@@ -27,5 +27,7 @@ public class PracticeNegativeTestPage {
     @FindBy (xpath = "(//*[.='Sign in'])[4]")
     public WebElement signinWithCredentials;
 
+    @FindBy (xpath = "//*[contains(text(), 'Authentication information not correct.')]")
+    public WebElement popUpMessage;
 
 }
