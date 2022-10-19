@@ -16,6 +16,7 @@ runners\TestRunner2$Runner.class
 stepDefinitions\DemoQAStepDefinition.class
 runners\TestRunner$Runner.class
 homeworks\Homeworks.class
+stepDefinitions\PracticeNegativeTestStepDefs.class
 utilities\ReusableMethods$1.class
 pages\GuruPage.class
 stepDefinitions\Practice_TC_07steps.class
