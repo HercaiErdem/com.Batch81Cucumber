@@ -1,7 +1,8 @@
+
 @PracticeAmazon
 Feature: Amazon Practice
-  Scenario: Amazon Sign In Test
 
+  Scenario: Amazon Sign In Test
     Given kullanici Amazon web sitesine gider
     When sign in butonuna tiklar
     And faker kullanarak e-posta gonderir
