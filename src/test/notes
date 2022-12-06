@@ -7,7 +7,7 @@ kısa bilgi vermek istiyorum
 Gayet basit ve anlaması kolay olan bu yapıda kurulan cümleler günlük konuşma dilindeki cümlelere
 oldukça yakın olduğu için test durumlarını yazarken adeta yazılımla konuşuyormuş hissiyatı oluşturur.
 içerisinde bazı keywords sayesinde(Features, Scenario, Scenario, Scenario Outline, Given, When, Then, And)
- kısa ve düzgün bir hikaye anlatımı sağlanmaya çalışılmıştır.
+kısa ve düzgün bir hikaye anlatımı sağlanmaya çalışılmıştır.
 
  *Bu durumda Cucumber, Gherkin Language kullanarak  teknik olmayan (none-technical) kişileri ve teknik kişileri
   birbirine bağlar ifadesini rahatlıkla söyleyebiliriz.
