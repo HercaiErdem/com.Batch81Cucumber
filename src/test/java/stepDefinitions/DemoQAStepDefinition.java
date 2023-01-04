@@ -5,8 +5,7 @@ import org.junit.*;
 import org.openqa.selenium.support.ui.*;
 import pages.*;
 import utilities.*;
-
-import java.time.Duration;
+import java.time.*;
 
 public class DemoQAStepDefinition {
     DemoQAPage demoqa = new DemoQAPage();
