@@ -1,14 +1,12 @@
 package stepDefinitions;
 
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import org.junit.Assert;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Actions;
-import pages.BrcPage;
-import utilities.ConfigReader;
-import utilities.Driver;
+import io.cucumber.java.en.*;
+
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.*;
+import pages.*;
+import utilities.*;
 
 public class BlueRentaCarStepDefinition {
 
