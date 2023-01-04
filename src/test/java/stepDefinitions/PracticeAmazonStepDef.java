@@ -1,12 +1,10 @@
 package stepDefinitions;
 
-import com.github.javafaker.Faker;
+import com.github.javafaker.*;
 import io.cucumber.java.en.*;
-import org.junit.Assert;
-import pages.AmazonPage;
-import utilities.ConfigReader;
-import utilities.Driver;
-import utilities.ReusableMethods;
+import org.junit.*;
+import pages.*;
+import utilities.*;
 
 public class PracticeAmazonStepDef {
     AmazonPage amazonPage = new AmazonPage();
