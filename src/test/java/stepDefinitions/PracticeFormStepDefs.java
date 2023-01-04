@@ -1,16 +1,12 @@
 package stepDefinitions;
 
-import com.github.javafaker.Faker;
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
-import org.junit.Assert;
-import org.openqa.selenium.support.ui.Select;
-import pages.PracticeFormPage;
-import utilities.Driver;
-
-import java.util.Random;
+import com.github.javafaker.*;
+import io.cucumber.java.en.*;
+import org.junit.*;
+import org.openqa.selenium.support.ui.*;
+import pages.*;
+import utilities.*;
+import java.util.*;
 
 public class PracticeFormStepDefs {
 
