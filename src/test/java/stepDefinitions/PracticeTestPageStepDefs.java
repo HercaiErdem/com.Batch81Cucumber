@@ -1,17 +1,12 @@
 package stepDefinitions;
 
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import org.junit.Assert;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import pages.PracticeTestPage;
-import utilities.Driver;
-
-import javax.swing.*;
-import java.util.List;
+import io.cucumber.java.en.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.*;
+import pages.*;
+import utilities.*;
+import java.util.*;
 
 public class PracticeTestPageStepDefs {
     PracticeTestPage obje = new PracticeTestPage();
