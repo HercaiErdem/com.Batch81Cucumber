@@ -1,15 +1,12 @@
 package stepDefinitions;
 
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
-import org.junit.Assert;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Actions;
-import pages.WebPage;
-import utilities.Driver;
-
-import javax.swing.*;
-import java.util.ArrayList;
+import io.cucumber.java.en.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.*;
+import pages.*;
+import utilities.*;
+import java.util.*;
 
 public class WebDriverStepDefinition {
     WebPage web = new WebPage();
