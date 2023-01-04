@@ -1,13 +1,12 @@
 package stepDefinitions;
 
-import com.github.javafaker.Faker;
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
-import org.junit.Assert;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Actions;
-import pages.AutoPage;
-import utilities.Driver;
+import com.github.javafaker.*;
+import io.cucumber.java.en.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.*;
+import pages.*;
+import utilities.*;
 
 public class AutoStepDefinition {
     AutoPage auto = new AutoPage();
