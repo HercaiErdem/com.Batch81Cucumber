@@ -1,18 +1,13 @@
 package stepDefinitions;
 
-import com.github.javafaker.Faker;
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
-import org.junit.Assert;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.PracticeNegativeTestPage;
-import utilities.Driver;
-import utilities.ReusableMethods;
-
-import java.time.Duration;
+import com.github.javafaker.*;
+import io.cucumber.java.en.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.*;
+import pages.*;
+import utilities.*;
+import java.time.*;
 
 public class PracticeNegativeTestStepDefs {
 
