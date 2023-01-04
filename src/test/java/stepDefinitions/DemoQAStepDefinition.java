@@ -1,12 +1,10 @@
 package stepDefinitions;
 
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.When;
-import org.junit.Assert;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.DemoQAPage;
-import utilities.Driver;
+import io.cucumber.java.en.*;
+import org.junit.*;
+import org.openqa.selenium.support.ui.*;
+import pages.*;
+import utilities.*;
 
 import java.time.Duration;
 
