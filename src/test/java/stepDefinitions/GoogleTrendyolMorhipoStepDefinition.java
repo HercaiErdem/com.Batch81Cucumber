@@ -1,17 +1,11 @@
 package stepDefinitions;
 
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WindowType;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.GoogleTrendyolMorhipoPage;
-import utilities.ConfigReader;
-import utilities.Driver;
-
-import java.time.Duration;
+import io.cucumber.java.en.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.*;
+import pages.*;
+import utilities.*;
+import java.time.*;
 
 public class GoogleTrendyolMorhipoStepDefinition {
     GoogleTrendyolMorhipoPage obje = new GoogleTrendyolMorhipoPage();
