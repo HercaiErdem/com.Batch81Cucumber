@@ -1,12 +1,10 @@
 package stepDefinitions;
 
-import io.cucumber.java.en.And;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import pages.GuruPage;
-import utilities.Driver;
-
-import java.util.List;
+import io.cucumber.java.en.*;
+import org.openqa.selenium.*;
+import pages.*;
+import utilities.*;
+import java.util.*;
 
 public class GuruStepDefinition {
     GuruPage guru = new GuruPage();
