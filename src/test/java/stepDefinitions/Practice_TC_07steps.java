@@ -1,14 +1,10 @@
 package stepDefinitions;
 
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import org.junit.Assert;
-import pages.PracticeTC07Page;
-import utilities.Driver;
-import utilities.ReusableMethods;
-
-import java.io.IOException;
+import io.cucumber.java.en.*;
+import org.junit.*;
+import pages.*;
+import utilities.*;
+import java.io.*;
 
 public class Practice_TC_07steps {
 
