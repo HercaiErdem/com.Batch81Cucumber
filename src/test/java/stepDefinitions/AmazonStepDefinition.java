@@ -4,7 +4,6 @@ import org.junit.*;
 import org.openqa.selenium.*;
 import pages.*;
 import utilities.*;
-
 public class AmazonStepDefinition {
     AmazonPage amazonPage=new AmazonPage();
     @Given("kullanici amazon sayfasina gider")
