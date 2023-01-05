@@ -3,8 +3,7 @@ package pages;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.*;
 import utilities.*;
-
-import java.util.List;
+import java.util.*;
 
 public class PracticeTestPage {
 
