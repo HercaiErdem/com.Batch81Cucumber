@@ -1,19 +1,14 @@
 package utilities;
 
-import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.interactions.*;
+import org.openqa.selenium.support.ui.*;
+import java.io.*;
+import java.text.*;
+import java.time.*;
+import java.util.*;
 
-import java.io.File;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
 
 public class ReusableMethods {
     //========ScreenShot(Syafanın resmini alma)=====//
