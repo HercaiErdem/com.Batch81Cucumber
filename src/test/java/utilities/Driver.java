@@ -5,8 +5,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.opera.*;
-
-import java.time.Duration;
+import java.time.*;
 
 
 public class Driver {
