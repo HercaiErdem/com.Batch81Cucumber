@@ -8,6 +8,7 @@ public class AmazonStepDefinition {
     AmazonPage amazonPage=new AmazonPage();
     @Given("kullanici amazon sayfasina gider")
     public void kullaniciAmazonSayfasinaGider() {
+
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
     }
     @Then("kullanici Nutella icin arama yapar")
