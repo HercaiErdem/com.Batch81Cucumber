@@ -8,7 +8,9 @@ import java.util.*;
 public class PracticeTestPage {
 
     public PracticeTestPage() {
+
         PageFactory.initElements(Driver.getDriver(), this);
+
     }
 
     @FindBy(xpath = "//input[@id='button']")
