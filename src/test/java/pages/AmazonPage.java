@@ -6,7 +6,9 @@ import utilities.*;
 
 public class AmazonPage {
     public AmazonPage() {
+
         PageFactory.initElements(Driver.getDriver(), this);
+
     }
 
     @FindBy(id = "twotabsearchtextbox")
