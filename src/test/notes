@@ -1,11 +1,10 @@
 
 * Gherkin, Cucumber ile test durumları yazarken kullanılan gramer yapısının genel adıdır.
 Gayet basit ve anlaması kolay olan bu yapıda kurulan cümleler günlük konuşma dilindeki
-cümlelereoldukça yakın olduğu için test durumlarını yazarken adeta yazılımla konuşuyormuş
+cümlelere oldukça yakın olduğu için test durumlarını yazarken adeta yazılımla konuşuyormuş
 hissiyatı oluşturur.
 * içerisinde bazı keywords sayesinde(Features, Scenario, Scenario, Scenario Outline,
-Given, When, Then, And)
-kısa ve düzgün bir hikaye anlatımı sağlanmaya çalışılmıştır.
+Given, When, Then, And) kısa ve düzgün bir hikaye anlatımı sağlanmaya çalışılmıştır.
 
 * Bu durumda Cucumber, Gherkin Language kullanarak  teknik olmayan (none-technical) kişileri
 ve teknik kişileribirbirine bağlar ifadesini rahatlıkla söyleyebiliriz.
