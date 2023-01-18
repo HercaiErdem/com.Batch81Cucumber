@@ -5,7 +5,8 @@ oldukça yakın olduğu için test durumlarını yazarken adeta yazılımla konu
 içerisinde bazı keywords sayesinde(Features, Scenario, Scenario, Scenario Outline, Given, When, Then, And)
 kısa ve düzgün bir hikaye anlatımı sağlanmaya çalışılmıştır.
 
-*Bu durumda Cucumber, Gherkin Language kullanarak  teknik olmayan (none-technical) kişileri ve teknik kişileri
+*Bu durumda Cucumber, Gherkin Language kullanarak  teknik olmayan (none-technical) kişileri ve
+ teknik kişileri
 birbirine bağlar ifadesini rahatlıkla söyleyebiliriz.
 
 
