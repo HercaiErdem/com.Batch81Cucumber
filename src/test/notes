@@ -1,5 +1,5 @@
 
-* Gherkin, Cucumber ile test durumları yazarken kullanılan gramer yapısının genel adıdır.
+* Gherkin, Cucumber ile test durumları yazarken kullanılan grammer yapısının genel adıdır.
 Gayet basit ve anlaması kolay olan bu yapıda kurulan cümleler günlük konuşma dilindeki
 cümlelere oldukça yakın olduğu için test durumlarını yazarken adeta yazılımla konuşuyormuş
 hissiyatı oluşturur.
