@@ -5,6 +5,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.opera.*;
+
 import java.time.*;
 
 
@@ -24,7 +25,6 @@ public class Driver {
         çalıştığı için ve değer atandığı için null olmayacak ve direk return edecek ve diğer
         teslerimiz aynı pencere(driver) üzerinde çalışacak
          */
-
 
 
     public static WebDriver getDriver() {
@@ -58,7 +58,7 @@ public class Driver {
 
     public static void closeDriver() {
         if (driver != null) { // driver'a değer atanmışsa kapat
-           driver.close();
+            driver.close();
             driver = null; // Kapandıktan sonra sonraki açmaları garanti altına almak için driver'i tekrar null yaptık
         }
     }
