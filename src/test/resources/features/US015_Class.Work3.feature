@@ -1,5 +1,6 @@
 @auto
 Feature: Kullanici giris testi
+
   Scenario: Kullanici sitede hesap olusturur
 
     # http://automationpractice.com/index.php sayfasina gidelim
