@@ -1,4 +1,3 @@
-
 @Homework
 Feature: Trendyol Morhipo Makas
 
