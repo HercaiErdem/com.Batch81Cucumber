@@ -16,7 +16,7 @@ public class Homeworks {
     //- Sonra diğer sayfayıda kapatınız
 
 
-    // ------2.-----
+    // 2.
     // http://tutorialsninja.com/demo/index.php?route=common/home sayfasına gidiniz
     // Phones & PDAs'a tıklayınız
     // Telefonların markalarını alınız
