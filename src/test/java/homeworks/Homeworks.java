@@ -2,7 +2,7 @@ package homeworks;
 
 public class Homeworks {
 
-    // -----1.-----
+    // 1.
     // - Google'a gidiniz
     //- trendyol'u aratınız
     //- trendyol linkini bulup siteye gidiniz
