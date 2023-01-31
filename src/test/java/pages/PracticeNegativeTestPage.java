@@ -20,13 +20,13 @@ public class PracticeNegativeTestPage {
     @FindBy(xpath = "//input[@id='username']")
     public WebElement username;
 
-    @FindBy (xpath = "//input[@id='password']")
+    @FindBy(xpath = "//input[@id='password']")
     public WebElement password;
 
-    @FindBy (xpath = "(//*[.='Sign in'])[4]")
+    @FindBy(xpath = "(//*[.='Sign in'])[4]")
     public WebElement signinWithCredentials;
 
-    @FindBy (xpath = "//*[contains(text(), 'Authentication information not correct.')]")
+    @FindBy(xpath = "//*[contains(text(), 'Authentication information not correct.')]")
     public WebElement popUpMessage;
 
 }
