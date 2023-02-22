@@ -127,4 +127,5 @@ public class AmazonStepDefinition {
     public void kullanici(String arg0) {
         Driver.getDriver().get(ConfigReader.getProperty("trendyolUrl"));
     }
+
 }
